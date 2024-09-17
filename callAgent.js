@@ -15,6 +15,7 @@ const client = new BedrockAgentRuntimeClient({
 
 export const invokeAgent = async function ({ sessionId, inputText } = {}) {
   let completion = "";
+
   const input = {
     agentId: "BDDTKWNTKO",
     agentAliasId: "XHZRS847GJ",
